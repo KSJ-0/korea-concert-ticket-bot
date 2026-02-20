@@ -75,7 +75,7 @@ function openBookingUrl(platform, concertId) {
     let url;
     switch (platform) {
         case "melon":
-            url = `https://tkglobal.melon.com/performance/index.htm?langCd=EN&prodId=${concertId}`;
+            url = `https://ticket.melon.com/performance/index.htm?langCd=EN&prodId=${concertId}`;
             break;
         case "yes24":
             url = `http://ticket.yes24.com/Pages/English/Perf/FnPerfDeail.aspx?IdPerf=${concertId}`;
